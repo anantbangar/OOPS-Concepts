@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\My Work\JAVA\OOPS Concepts\.metadata\.plugins\org.eclipse.jdt.core
+2703971065.index
+1228223459.index
+3496828700.index

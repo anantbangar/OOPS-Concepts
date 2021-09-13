@@ -1,0 +1,4 @@
+#Fri Jun 11 14:01:02 IST 2021
+oracle.url=jdbc\:oracle\:thin\:@localhost\:1521\:orcl
+oracle.password=system123
+oracle.use_name=system
