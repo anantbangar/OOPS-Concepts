@@ -38,6 +38,9 @@ public class Test
 		ac.show();
 		
 		System.out.println("for data members......");
+		System.out.println(a.name);
+		System.out.println(b.name);
+		System.out.println(c.name);
 		System.out.println(ab.name);
 		System.out.println(ac.name);
 		

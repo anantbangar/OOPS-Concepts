@@ -12,7 +12,7 @@ public class E18GenerateSQLException
 	{
 		try
 		{
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/hibernate","root","system123");
 			
 			System.out.println("connection done with MySql Database ");
@@ -26,7 +26,8 @@ public class E18GenerateSQLException
 		}
 		catch(SQLException e)
 		{
-			System.out.println(e.getMessage());
+			//System.out.println(e.getMessage());
+			e.printStackTrace();
 		}
 		catch(Exception e)
 		{

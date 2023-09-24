@@ -10,7 +10,7 @@ public class S04ExtractStringUsingSubstring
 		System.out.println("enter string ");
 		String str1=sc.nextLine();
 		
-		System.out.println("Substring for(0,5) is "+str1.substring(0,5));
-		System.out.println("Substring for(7) is "+str1.substring(7));
+		System.out.println("Substring for(0,7) is "+str1.substring(0,7));
+		System.out.println("Substring for(9) is "+str1.substring(9));
 	}
 }

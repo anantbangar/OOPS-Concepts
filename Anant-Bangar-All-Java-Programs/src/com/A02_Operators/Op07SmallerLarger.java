@@ -23,6 +23,8 @@ public class Op07SmallerLarger
 			System.out.println(num1+" is larger number");
 		else
 			System.out.println(num2+" is larger number");
+		
+		sc.close();
 					
 	}
 }

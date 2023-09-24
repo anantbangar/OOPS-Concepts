@@ -7,7 +7,7 @@ public class M03SmNmSmNofParaOfSmTyp
 		System.out.println("two numbers are "+a+" "+b);
 	}
 	
-	/void method(int a,int b)
+	void method(int a,int b)
 	{
 		System.out.println("two numbers are "+a+" "+b);
 	}*/

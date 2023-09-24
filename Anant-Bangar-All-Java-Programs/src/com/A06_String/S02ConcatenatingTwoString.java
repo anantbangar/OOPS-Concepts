@@ -6,6 +6,10 @@ public class S02ConcatenatingTwoString
 	{
 		System.out.println("concatenating by + operator ");
 		
+		String str="gulab";
+		str.concat("bangar");
+		System.out.println(str);
+		
 		String str1="anant"+"bangar";
 		System.out.println(str1);
 		

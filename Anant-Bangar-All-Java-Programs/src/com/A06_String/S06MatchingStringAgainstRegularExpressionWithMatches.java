@@ -10,6 +10,6 @@ public class S06MatchingStringAgainstRegularExpressionWithMatches
 		
 		System.out.println(str1.matches("(.*)ban(.*)"));
 		System.out.println(str1.matches("bangar"));
-		System.out.println(str1.matches("bangars"));
+		System.out.println(str1.matches("anant bangar"));
 	}
 }

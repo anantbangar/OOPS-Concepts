@@ -4,7 +4,7 @@ public class L04OddEven_UsingLoop
 {
 	public static void main(String[] args) 
 	{
-		int i=1,j=20,k,m;
+		int i=1,j=20,k;
 		
 		System.out.println("even and odd numbers between 1 to 20");
 		

@@ -21,7 +21,7 @@ public class S06StaticInstanceVar_In_MainMethod
 		S06StaticInstanceVar_In_MainMethod obj1=new S06StaticInstanceVar_In_MainMethod();
 		
 		obj1.salary=80000;
-		obj1.lastName="pawar";
+		obj1.lastName="pawan";
 		System.out.println("Salary is "+obj1.salary);
 		System.out.println("Last name is "+obj1.lastName);
 	}

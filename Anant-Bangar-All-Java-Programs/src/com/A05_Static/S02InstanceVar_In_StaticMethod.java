@@ -2,6 +2,8 @@ package com.A05_Static;
 
 public class S02InstanceVar_In_StaticMethod 
 {
+	//Non static variables cannot be accessed inside a static method.
+	
 	int id;
 	String name;
 	

@@ -19,6 +19,7 @@ public class A10DuplicateValueOfArray
 				if(arr[i]==arr[j] && i!=j)
 				{
 					duplicates.add(arr[i]);
+					//System.out.println("duplicate elements in array is "+arr[i]);
 					flag++;
 				}
 			}

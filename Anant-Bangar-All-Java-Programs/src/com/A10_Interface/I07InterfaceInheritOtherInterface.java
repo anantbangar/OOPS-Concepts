@@ -3,6 +3,7 @@ package com.A10_Interface;
 interface Drawable6
 {
 	void draw();
+	
 	default void methodDraw()
 	{
 		System.out.println("this is default method of Drawable6 interface ");
@@ -12,6 +13,7 @@ interface Drawable6
 interface Printable2 extends Drawable6
 {
 	void print();
+	
 	default void methodPrint()
 	{
 		System.out.println("this is default method of Printable2 interface ");

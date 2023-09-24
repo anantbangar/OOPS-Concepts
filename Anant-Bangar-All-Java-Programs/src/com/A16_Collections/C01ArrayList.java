@@ -25,6 +25,11 @@ public class C01ArrayList
 		System.out.println("array list which contain duplicate elements with list object ");
 		System.out.println(list);
 		
+		System.out.println("array list with foreach and lambda ");
+		list.forEach(e->{
+			System.out.print(e+" ");
+		});			
+		
 		System.out.println("array list with iterator object is ");
 		Iterator<String> itr=list.iterator();
 		while(itr.hasNext())
